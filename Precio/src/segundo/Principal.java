@@ -3,22 +3,24 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package precio;
+package segundo;
 
 /**
  *
  * @author ediso
  */
 public class Principal {
-    public static void main(String[] args){
+        public static void main(String[] args){
         Precio p;
         p=new Precio();
-        System.out.println(p.euros);
+       // System.out.println(p.euros);
         
-        p.euros=10.1;
-        System.out.println(p.euros);
-                
+        //p.euros=10.1;
+        //System.out.println(p.euros);
+          p.agregar(20.2);
+            System.out.println(p.obtener());
     
 }
+    
     
 }
